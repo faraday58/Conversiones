@@ -63,7 +63,8 @@ namespace Conversiones
 
             btConvertir.Size = new Size(100, 50);
             btConvertir.Location = new Point(60, 275);
-            btConvertir.Text = "Convertir"; 
+            btConvertir.Text = "Convertir";
+            btConvertir.Click += new EventHandler(EventoConversion);
 
 
             this.Controls.Add(this.txtbCentigrados);

@@ -1,0 +1,6 @@
+C:\Users\alumnos\Desktop\MSR\Conversiones\obj\Debug\Conversiones.csprojAssemblyReference.cache
+C:\Users\alumnos\Desktop\MSR\Conversiones\bin\Debug\Conversiones.exe.config
+C:\Users\alumnos\Desktop\MSR\Conversiones\bin\Debug\Conversiones.exe
+C:\Users\alumnos\Desktop\MSR\Conversiones\bin\Debug\Conversiones.pdb
+C:\Users\alumnos\Desktop\MSR\Conversiones\obj\Debug\Conversiones.exe
+C:\Users\alumnos\Desktop\MSR\Conversiones\obj\Debug\Conversiones.pdb

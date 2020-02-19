@@ -71,6 +71,15 @@ namespace Conversiones
             Kelvin = Centigrados + 273.15f;
         }
 
+        public void FarenheitACentigrados(float farenheit)
+        {
+            Centigrados= (farenheit-32)/1.8f;
+        }
+        public void KelvinACentigrados(float kelvin)
+        {
+            Centigrados = kelvin-273.15f;
+        }
+
 
         #endregion
 

@@ -14,6 +14,7 @@ namespace Conversiones
         private TextBox txtbKelvin;
         private Label lbKelvin;
         private Button btConvertir;
+        private Button btLimpiar;
         #endregion
 
         public void InitializeComponent()
@@ -23,6 +24,7 @@ namespace Conversiones
             txtbFarenheit = new TextBox();
             txtbKelvin = new TextBox();
             btConvertir = new Button();
+            btLimpiar = new Button();
             lbCentigrados = new Label();
             lbFarenheit = new Label();
             lbKelvin = new Label();
@@ -30,7 +32,7 @@ namespace Conversiones
 
             #region Propiedades de aspecto Formulario
             this.Text = "Conversiones";
-            this.Size = new Size(225, 400);
+            this.Size = new Size(225, 450);
             this.Location = new Point(688, 200);
             this.BackColor = Color.SkyBlue;
             #endregion
@@ -66,6 +68,10 @@ namespace Conversiones
             btConvertir.Text = "Convertir";
             btConvertir.Click += new EventHandler(EventoConversion);
 
+            btLimpiar.Size = new Size(100, 50);
+            btLimpiar.Location = new Point(60, 335);
+            btLimpiar.Text = "Limpiar";
+            btLimpiar.Click += new EventHandler(EventoLimpiar);
 
             this.Controls.Add(this.txtbCentigrados);
             this.Controls.Add(this.txtbFarenheit);
@@ -74,6 +80,7 @@ namespace Conversiones
             this.Controls.Add(this.lbFarenheit);
             this.Controls.Add(this.lbKelvin);
             this.Controls.Add(this.btConvertir);
+            this.Controls.Add(this.btLimpiar);
 
 
         }
